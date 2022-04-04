@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>McDonals</title>
+    <link rel="stylesheet" href="./Mcdonals.css">
+</head>
+
+<body>
+    <div id="main_container">
+    <div id="container">
+    
+        <img class="image" src="https://www.mcdonalds.com/content/dam/sites/usa/nfl/icons/arches-logo_108x108.jpg" alt="">
+        <div id="order"></div>
+        <h2>McDonald's Menu</h2>
+        <input type="checkbox" class="meal" value="Crispy_Chicken_Sandwich">Crispy Chicken Sandwich<br>
+        <input type="checkbox" class="meal" value="World_Famous_Fries">World Famous Fries<br>
+        <input type="checkbox" class="meal" value="Double_Cheeseburger">Double Cheeseburger<br>
+        <input type="checkbox" class="meal" value="McCafé_Beverages">McCafé Beverages<br>
+        <input type="checkbox" class="meal" value="Big_Mac_Combo_Meal">Big Mac Combo Meal<br>
+        <input type="checkbox" class="meal" value="Deluxe_Crispy_Sandwich">Deluxe Crispy Sandwich<br>
+
+        <button onclick="orderFood()">Order Food</button>
+
+        <div id="greet">
+            Please Wait Your Order<br />
+            is Processing....
+          </div>
+   </div>
+
+   <div id="display"></div>
+</div>
+
+</body>
+
+</html>
+<script src="./Mcdonals.js"></script>

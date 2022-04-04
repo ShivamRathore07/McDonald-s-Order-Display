@@ -1,0 +1,66 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#main_container{
+    display: flex;
+    
+    gap: 20px;
+}
+#container{
+     
+    margin-left:50px ;
+    margin-top: 50px;
+    width: 40%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 15px;
+    border-radius: 10px;
+}
+h1{
+    text-align: center;
+    margin:-66px 0px 0px 0px  ;
+}
+#order {
+float: right;
+margin:23% 10px 0px 0px;
+font-size: 20px;
+border-radius: 5px;
+}
+#greet {
+text-align: center;
+font-size: 20px;
+margin: 10px 0px 20px 0px ;
+
+}
+button {
+width: 35%;
+height: 50px;
+text-align: center;
+cursor: pointer;
+font-size: 20px;
+margin: 30px 0px 20px 32.8%; 
+background-color: #ffbc0d;
+border: 1px solid #ffbc0d;
+border-radius: 10px;
+
+}
+.image{
+  margin-left:40%;
+}
+.image1{
+  height: 70%;
+  width: 100%;
+}
+#display{
+  width: 50%;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  margin-top: 50px;
+  display: grid;
+  grid-template-rows: repeat(2,1fr);
+  grid-template-columns: repeat(3,200px);
+  border-radius: 10px;
+  gap: 20px;
+  justify-content: center;
+  text-align: center;
+  overflow: hidden;
+  
+}
